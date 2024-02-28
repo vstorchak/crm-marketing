@@ -1,3 +1,12 @@
+#Overview of the logic of this script available below.
+#1. The script initially asks the user for the filename to process and reads the file accordingly.
+#2. The user needs to input the number of blocks their IDs belong to, the number of chunks to split each block into, and the number of resamples for these chunks.
+#3. An array experimental_set is created to store the sampling results.
+#4. There is a loop for blocks and resamples. Inside each iteration, a is randomly shuffled and divided into parts b. If the samples are similar to previous ones, a reshuffle occurs.
+#5. Each part is then evaluated for opens and deliveries, the open rate is calculated, and stored in experimental_set.
+#6. The average, variance, standard error, and confidence interval for the open rate are calculated and printed for each block.
+#7. Finally, the results and the estimation of the mean and confidence interval for each block are displayed.
+
 from random import shuffle
 import sys
 import numpy as np
