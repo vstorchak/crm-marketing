@@ -31,6 +31,10 @@ Suppose you have interaction data in a file named "interactions.csv", and you wa
 - Python 3.x
 - NumPy
 
+## Future development vision
+
+One of currently missing use case that has some demand behind is the intersection of existing data about interactions to generate various comparison results as outputs. That's where the next focus area for this developer's products will be.
+
 ## Note
 
 This script assumes that the interaction data is structured with specific columns for user IDs, interactions, etc. Make sure your input file conforms to the expected format for the script to work correctly.
