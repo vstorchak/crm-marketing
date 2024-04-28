@@ -7,6 +7,8 @@
 #6. The average, variance, standard error, and confidence interval for the open rate are calculated and printed for each block.
 #7. Finally, the results and the estimation of the mean and confidence interval for each block are displayed.
 
+#Example of usage: on selected size of audience, this script could be used that search for very special date or time for emails sending out for better open rate or click rate is useless unless your audience isn't millions of people at least.
+
 from random import shuffle
 import sys
 import numpy as np
